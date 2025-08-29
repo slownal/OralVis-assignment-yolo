@@ -1,0 +1,193 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyTorch
+*.pth
+*.pt
+!yolov8s.pt
+
+# YOLO specific
+runs/
+wandb/
+
+# Dataset files (keep structure but ignore large files)
+ToothNumber_TaskDataset/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+!outputs/plots/*.png
+!outputs/predictions/samples/*.jpg
+!outputs/predictions/post_processed/*.png
+
+# Model weights (except the main trained model)
+*.weights
+*.onnx
+*.engine
+*.trt
+*.pb
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Kiro IDE
+.kiro/
+
+# Microsoft Office temporary files
+~$*
+
+# Project specific files to ignore
+aim.txt
+*.docx
+
+# Backup files
+*.bak
+*.backup
+
+# Cache files
+*.cache
+.cache/
+
+# Output directories (keep structure but ignore contents)
+outputs/dataset/
+outputs/results/yolov8s_tooth_numbering/
+outputs/models/*.pt
+!outputs/models/yolov8s_tooth_numbering_best.pt
+
+# Keep important output files
+!outputs/data.yaml
+!outputs/plots/
+!outputs/predictions/
+!outputs/results/*.json
+!outputs/results/*.md
