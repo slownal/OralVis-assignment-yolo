@@ -1,4 +1,4 @@
-# 🦷 Tooth Numbering YOLO System
+# Tooth Numbering YOLO System
 
 
 A complete **YOLO-based** tooth detection and **FDI numbering system** for dental panoramic images. This project accurately identifies and classifies teeth, generating all necessary outputs for academic research submissions.
@@ -6,7 +6,7 @@ A complete **YOLO-based** tooth detection and **FDI numbering system** for denta
 
 ***
 
-## ✨ Key Features
+## Key Features
 
 * **Complete FDI System**: Implements the full FDI tooth numbering system with guaranteed class order preservation.
 * **Multi-YOLO Support**: Fully compatible with **YOLOv5, YOLOv8, and YOLOv11**.
@@ -16,7 +16,7 @@ A complete **YOLO-based** tooth detection and **FDI numbering system** for denta
 
 ***
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get the project set up and running on your local machine.
 
@@ -70,7 +70,7 @@ Follow these steps to get the project set up and running on your local machine.
 
 ***
 
-## 📖 FDI Numbering System
+## FDI Numbering System
 
 The system is built around a strict implementation of the FDI tooth numbering system. The mapping between class IDs and FDI codes is **immutable**.
 
@@ -103,7 +103,7 @@ The system is built around a strict implementation of the FDI tooth numbering sy
 
 ***
 
-## 📊 Evaluation & Outputs
+## Evaluation & Outputs
 
 The system generates all required materials for a research submission in the `outputs/` directory:
 
@@ -114,7 +114,7 @@ The system generates all required materials for a research submission in the `ou
 
 ***
 
-## ⚙️ Configuration
+## Configuration
 
 Key parameters can be adjusted in `config.py`:
 
